@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Debian --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Aaron'\"'\"'s Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S '/mnt/c/Aaron'\"'\"'s Folder/173Projects/Project_2_Parse_Tree' -B '/mnt/c/Aaron'\"'\"'s Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug'"
+"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\darim\CLionProjects\Project_2_Parse_Tree2 -B C:\Users\darim\CLionProjects\Project_2_Parse_Tree2\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug
+-- Build files have been written to: C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug

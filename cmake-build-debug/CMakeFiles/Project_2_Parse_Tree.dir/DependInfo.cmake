@@ -1,16 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/bits.c" "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles/Project_2_Parse_Tree.dir/bits.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/bits.c" "CMakeFiles/Project_2_Parse_Tree.dir/bits.c.obj" "gcc" "CMakeFiles/Project_2_Parse_Tree.dir/bits.c.obj.d"
+  "C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/rdp.c" "CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.obj" "gcc" "CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.obj.d"
+  "C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/stack.c" "CMakeFiles/Project_2_Parse_Tree.dir/stack.c.obj" "gcc" "CMakeFiles/Project_2_Parse_Tree.dir/stack.c.obj.d"
+  "C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tdp.c" "CMakeFiles/Project_2_Parse_Tree.dir/tdp.c.obj" "gcc" "CMakeFiles/Project_2_Parse_Tree.dir/tdp.c.obj.d"
+  "C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tree.c" "CMakeFiles/Project_2_Parse_Tree.dir/tree.c.obj" "gcc" "CMakeFiles/Project_2_Parse_Tree.dir/tree.c.obj.d"
   )
 
 # Targets to which this target links.

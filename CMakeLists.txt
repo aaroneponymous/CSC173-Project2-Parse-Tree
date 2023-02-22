@@ -9,4 +9,4 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_executable(Project_2_Parse_Tree
-        bits.c)
+        bits.c tree.c rdp.c stack.h stack.c tdp.c)
