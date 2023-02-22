@@ -92,17 +92,62 @@ CMakeFiles/Project_2_Parse_Tree.dir/bits.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2_Parse_Tree.dir/bits.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/bits.c" -o CMakeFiles/Project_2_Parse_Tree.dir/bits.c.s
 
+CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o: CMakeFiles/Project_2_Parse_Tree.dir/flags.make
+CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o: ../tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o -c "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/tree.c"
+
+CMakeFiles/Project_2_Parse_Tree.dir/tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2_Parse_Tree.dir/tree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/tree.c" > CMakeFiles/Project_2_Parse_Tree.dir/tree.c.i
+
+CMakeFiles/Project_2_Parse_Tree.dir/tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2_Parse_Tree.dir/tree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/tree.c" -o CMakeFiles/Project_2_Parse_Tree.dir/tree.c.s
+
+CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o: CMakeFiles/Project_2_Parse_Tree.dir/flags.make
+CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o: ../rdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o -c "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/rdp.c"
+
+CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/rdp.c" > CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.i
+
+CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/rdp.c" -o CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.s
+
+CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o: CMakeFiles/Project_2_Parse_Tree.dir/flags.make
+CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o: ../stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o -c "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/stack.c"
+
+CMakeFiles/Project_2_Parse_Tree.dir/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2_Parse_Tree.dir/stack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/stack.c" > CMakeFiles/Project_2_Parse_Tree.dir/stack.c.i
+
+CMakeFiles/Project_2_Parse_Tree.dir/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2_Parse_Tree.dir/stack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/stack.c" -o CMakeFiles/Project_2_Parse_Tree.dir/stack.c.s
+
 # Object files for target Project_2_Parse_Tree
 Project_2_Parse_Tree_OBJECTS = \
-"CMakeFiles/Project_2_Parse_Tree.dir/bits.c.o"
+"CMakeFiles/Project_2_Parse_Tree.dir/bits.c.o" \
+"CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o" \
+"CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o" \
+"CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o"
 
 # External object files for target Project_2_Parse_Tree
 Project_2_Parse_Tree_EXTERNAL_OBJECTS =
 
 Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/bits.c.o
+Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o
+Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o
+Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o
 Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/build.make
 Project_2_Parse_Tree: CMakeFiles/Project_2_Parse_Tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Project_2_Parse_Tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Project_2_Parse_Tree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project_2_Parse_Tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

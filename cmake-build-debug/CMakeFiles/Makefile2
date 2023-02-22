@@ -96,12 +96,12 @@ clean: CMakeFiles/Project_2_Parse_Tree.dir/clean
 CMakeFiles/Project_2_Parse_Tree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Project_2_Parse_Tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target Project_2_Parse_Tree"
 .PHONY : CMakeFiles/Project_2_Parse_Tree.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project_2_Parse_Tree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Project_2_Parse_Tree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Aaron's Folder/173Projects/Project_2_Parse_Tree/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Project_2_Parse_Tree.dir/rule

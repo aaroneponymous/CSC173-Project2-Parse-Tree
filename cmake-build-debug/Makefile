@@ -172,6 +172,87 @@ bits.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/bits.c.s
 .PHONY : bits.c.s
 
+rdp.o: rdp.c.o
+
+.PHONY : rdp.o
+
+# target to build an object file
+rdp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.o
+.PHONY : rdp.c.o
+
+rdp.i: rdp.c.i
+
+.PHONY : rdp.i
+
+# target to preprocess a source file
+rdp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.i
+.PHONY : rdp.c.i
+
+rdp.s: rdp.c.s
+
+.PHONY : rdp.s
+
+# target to generate assembly for a file
+rdp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/rdp.c.s
+.PHONY : rdp.c.s
+
+stack.o: stack.c.o
+
+.PHONY : stack.o
+
+# target to build an object file
+stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/stack.c.o
+.PHONY : stack.c.o
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/stack.c.s
+.PHONY : stack.c.s
+
+tree.o: tree.c.o
+
+.PHONY : tree.o
+
+# target to build an object file
+tree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/tree.c.o
+.PHONY : tree.c.o
+
+tree.i: tree.c.i
+
+.PHONY : tree.i
+
+# target to preprocess a source file
+tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/tree.c.i
+.PHONY : tree.c.i
+
+tree.s: tree.c.s
+
+.PHONY : tree.s
+
+# target to generate assembly for a file
+tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_2_Parse_Tree.dir/build.make CMakeFiles/Project_2_Parse_Tree.dir/tree.c.s
+.PHONY : tree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,6 +265,15 @@ help:
 	@echo "... bits.o"
 	@echo "... bits.i"
 	@echo "... bits.s"
+	@echo "... rdp.o"
+	@echo "... rdp.i"
+	@echo "... rdp.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
+	@echo "... tree.o"
+	@echo "... tree.i"
+	@echo "... tree.s"
 .PHONY : help
 
 

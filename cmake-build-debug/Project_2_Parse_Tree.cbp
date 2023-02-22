@@ -81,6 +81,21 @@
 		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/bits.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
+		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/rdp.c">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/stack.c">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/stack.h">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/tree.c">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/tree.h">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
 		<Unit filename="/mnt/c/Aaron&apos;s Folder/173Projects/Project_2_Parse_Tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
