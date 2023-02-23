@@ -7,14 +7,9 @@
 #include "stack.h"
 #include "tdp.h"
 
-char curr;
-TDP newTDP(){
-    TDP tdp = (TDP)malloc(sizeof(struct TDP));
-    tdp->curr = 0;
-    tdp->stack = createStack();
-    tdp->strIn = NULL;
-}
+char nextIn;
 
+// Parse Table Points to Production Number
 int parseTable[8][8] = {
         //             0      1     ~     (      )      |       &      e
         /*E*/ { 1, 1, 1, 1,-1,-1,-1,-1},
@@ -24,17 +19,19 @@ int parseTable[8][8] = {
         /*F*/ { 9, 9, 7, 8,-1,-1,-1,-1},
         /*S*/ {10,10,-1,-1,-1,-1,-1,-1},
         /*ST*/{11,11,12,12,12,12,12,12},
-        /*B*/ {13,14,-1,-1,-1,-1,-1,-1}
+        /*B*/ {13,14,12,12,12,12,12,12}
 };
 
+// If the next input is the same as the parameter, return true
 bool isMatch(char c){
-    if(curr == c){
+    if(nextIn == c){
         return true;
     } else {
         return false;
     }
 }
 
+// Lookahead for the next input
 char LOOKAHEAD(char* str, int curr){
     if(curr < strlen(str)){
         return str[curr];
@@ -42,7 +39,7 @@ char LOOKAHEAD(char* str, int curr){
     return '\0';
 }
 
-//will take
+// Check if the input is a terminal
 bool isTerminal(char c){
     switch(c) {
         case '0':
@@ -79,27 +76,6 @@ int syncatRef(char *c){
     } else return -1;
 }
 
-//RETURNS LABEL OF SYNCAT USING INDEX FROM TABLE [i][j]
-char* index_to_syncat(int n){
-    if(n == 0){
-        return "E";
-    } else if(n == 1){
-        return "ET";
-    } else if(n == 2){
-        return "T";
-    } else if(n == 3){
-        return "TT";
-    } else if(n == 4){
-        return "F";
-    } else if(n == 5){
-        return "S";
-    } else if(n == 6){
-        return "ST";
-    } else if(n == 7){
-        return "B";
-    } else return NULL;
-}
-
 //should the stack pop a terminal, use these cases to refer to a column in the table
 int charRef(char c){
     switch(c){
@@ -122,26 +98,46 @@ int charRef(char c){
     }
 }
 
-//int total = sizeof(*parseTable);
-//const int numCols = sizeof((parseTable)[0]);
-//const int numRows = total/numCols;
+TREE parseFun(char* in) {
+    // Initialize the Stack and push the start symbol
+    STACK stack = createStack();
+    push(stack, "E");
+    TREE tree = makeNode0("E");
 
-int col = 0;
-int row = 0;
-//STACK tStack = createStack();
+    while(!isEmpty(stack)) {
+        // Get the next input
+        nextIn = LOOKAHEAD(in, 0);
 
-void parseFun() {
-    char* in = "(0)";
-    int index = 0;
-    curr = in[index];
-    TDP tdp = newTDP();
-    while(LOOKAHEAD != '\0'){
-        col = charRef(curr);
-        //find rows in that column and find ref to production
-        int prodxnRef = parseTable[row][col];
-        if(prodxnRef != -1){
-            char* label = index_to_syncat(prodxnRef);
-            //tdp->stack.push(tdp->stack, label);
+        // Get the top of the stack
+        char* top = pop(stack);
+
+        // If the top of the stack is a terminal
+        if(isTerminal(top[0])) {
+            // If the next input is the same as the top of the stack
+            if(isMatch(top[0])) {
+                // Remove the next input
+                in++;
+            } else {
+                // Error
+                printf("Parse Failed");
+                return FAILED;
+            }
+        } else {
+            // Get the row and column of the parse table
+            int row = syncatRef(top);
+            int col = charRef(nextIn);
+
+            // Get the production number from the parse table
+            int prodNum = parseTable[row][col];
+
+            // If the production number is -1, error
+            if(prodNum == -1) {
+                printf("Parse Failed");
+                return NULL;
+            }
         }
     }
 }
+
+
+
