@@ -23,6 +23,7 @@ void push(STACK stack, char *x);
 char *pop(STACK stack);
 char *peek(STACK stack);
 bool isEmpty(STACK stack);
+STACK createStack();
 void freeStack(STACK stack);
 
 

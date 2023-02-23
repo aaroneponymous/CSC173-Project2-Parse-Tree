@@ -8,103 +8,101 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Project_2_Parse_Tree">
-				<Option output="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Project_2_Parse_Tree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/."/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_2_Parse_Tree"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Project_2_Parse_Tree/fast">
-				<Option output="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Project_2_Parse_Tree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/."/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_2_Parse_Tree/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_2_Parse_Tree">
+				<Option output="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Project_2_Parse_Tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_2_Parse_Tree"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_2_Parse_Tree/fast">
+				<Option output="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Project_2_Parse_Tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_2_Parse_Tree/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Aaron\ Paul/CLionProjects/1_Project_2_Parse_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/bits.c">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/bits.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/rdp.c">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/rdp.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/stack.c">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/stack.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/stack.h">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/stack.h">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tdp.c">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/tdp.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tdp.h">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/tdp.h">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tree.c">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/tree.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tree.h">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/tree.h">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
-		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/Aaron Paul/CLionProjects/1_Project_2_Parse_Tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

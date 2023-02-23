@@ -32,6 +32,7 @@ int main()
             } else {
                 printf("Parse Successful: \n\n");
                 printParseTree(parseTree, 0);
+                freeTree(parseTree);
             }
         }
 

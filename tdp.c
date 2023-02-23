@@ -9,6 +9,7 @@
 
 char nextIn;
 
+// Parse Table Points to Production Number
 int parseTable[8][8] = {
         //             0      1     ~     (      )      |       &      e
         /*E*/ { 1, 1, 1, 1,-1,-1,-1,-1},
@@ -21,6 +22,7 @@ int parseTable[8][8] = {
         /*B*/ {13,14,12,12,12,12,12,12}
 };
 
+// If the next input is the same as the parameter, return true
 bool isMatch(char c){
     if(nextIn == c){
         return true;
@@ -29,15 +31,15 @@ bool isMatch(char c){
     }
 }
 
-char
-LOOKAHEAD(char* str, int curr){
+// Lookahead for the next input
+char LOOKAHEAD(char* str, int curr){
     if(curr < strlen(str)){
         return str[curr];
     }
     return '\0';
 }
 
-//will take
+// Check if the input is a terminal
 bool isTerminal(char c){
     switch(c) {
         case '0':
@@ -96,7 +98,46 @@ int charRef(char c){
     }
 }
 
-TDP parseFun(char* in) {
-    nextIn = 0;
+TREE parseFun(char* in) {
+    // Initialize the Stack and push the start symbol
+    STACK stack = createStack();
+    push(stack, "E");
+    TREE tree = makeNode0("E");
 
+    while(!isEmpty(stack)) {
+        // Get the next input
+        nextIn = LOOKAHEAD(in, 0);
+
+        // Get the top of the stack
+        char* top = pop(stack);
+
+        // If the top of the stack is a terminal
+        if(isTerminal(top[0])) {
+            // If the next input is the same as the top of the stack
+            if(isMatch(top[0])) {
+                // Remove the next input
+                in++;
+            } else {
+                // Error
+                printf("Parse Failed");
+                return FAILED;
+            }
+        } else {
+            // Get the row and column of the parse table
+            int row = syncatRef(top);
+            int col = charRef(nextIn);
+
+            // Get the production number from the parse table
+            int prodNum = parseTable[row][col];
+
+            // If the production number is -1, error
+            if(prodNum == -1) {
+                printf("Parse Failed");
+                return NULL;
+            }
+        }
+    }
 }
+
+
+
