@@ -95,6 +95,9 @@
 		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tdp.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
+		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tdp.h">
+			<Option target="Project_2_Parse_Tree"/>
+		</Unit>
 		<Unit filename="C:/Users/darim/CLionProjects/Project_2_Parse_Tree2/tree.c">
 			<Option target="Project_2_Parse_Tree"/>
 		</Unit>
