@@ -141,7 +141,7 @@ void parseFun() {
         int prodxnRef = parseTable[row][col];
         if(prodxnRef != -1){
             char* label = index_to_syncat(prodxnRef);
-            tdp->stack.push(tdp->stack, label);
+            //tdp->stack.push(tdp->stack, label);
         }
     }
 }
