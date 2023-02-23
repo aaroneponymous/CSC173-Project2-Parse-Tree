@@ -8,6 +8,7 @@
 #include <string.h>
 
 #include "stack.h"
+#include "tree.h"
 
 #ifndef PROJECT_2_PARSE_TREE_TDP_H
 #define PROJECT_2_PARSE_TREE_TDP_H
@@ -17,11 +18,12 @@
 typedef struct TDP* TDP;
 
 struct TDP{
-    int curr;
+    char curr;
+    char* strIn;
     STACK stack;
 };
 
-extern TDP newTDP(char* input);
+extern TDP newTDP();
 
 char LOOKAHEAD(char* str, int curr);
 bool isTerminal(char c);

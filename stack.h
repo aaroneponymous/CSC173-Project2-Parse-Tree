@@ -24,7 +24,7 @@ char *pop(STACK stack);
 char *peek(STACK stack);
 bool isEmpty(STACK stack);
 void freeStack(STACK stack);
-
+extern STACK createStack();
 
 
 #endif //PROJECT_2_PARSE_TREE_STACK_H
